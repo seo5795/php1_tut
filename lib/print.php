@@ -17,11 +17,12 @@ function print_list(){
    
     
     $i=0;
-    while($i<count($list)){
+    while($i<count($list)){//배열의 갯수 알려주는 함수 count
         $title=htmlspecialchars($list[$i]);
         if ($list[$i] != '.') {
             if($list[$i] != '..'){
                 echo "<li><a href=\"index.php?id=$title\">$title</a></li>\n";
+                //\를 이용하여 php가 "를 문자로 인식하도록 설정
             }
         }
         $i=$i+1;
