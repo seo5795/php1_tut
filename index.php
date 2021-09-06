@@ -10,7 +10,6 @@ require ('view/head.php');
 	if(isset($_GET['id'])){?>
 	    
 	<a href="update.php?id=<?= $_GET['id'];?>">update</a>
-	<a href="delete.php?id=<?= $_GET['id'];?>">delete</a>
 	<form action="delete.php" method="post">
 		<input type="hidden" value="<?= $_GET['id'];?>">
 		<input type="submit" value="delete">
