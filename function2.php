@@ -18,11 +18,11 @@ function basic(){
 
 <h2>parameter &amp; argument</h2>
 <?php 
-function sum($left, $right){
+function sum($left, $right){//파라미터, 매개변수
     print($left+$right);
     print("<br>");
 }
-    sum(2,4);
+    sum(2,3);//입력값: argument
     sum(4,6);
 ?>
 

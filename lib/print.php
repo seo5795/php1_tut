@@ -14,6 +14,7 @@ function print_description(){
 }
 function print_list(){
     $list=scandir('./data');
+    // scandir: 특정한 디렉토리 목록을 배열로 받을 수 있다. 
    
     
     $i=0;

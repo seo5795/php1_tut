@@ -5,12 +5,7 @@ require('lib/print.php');
 <?php 
 require ('view/head.php');
 ?>
-		<?php 
-		  print_list();
-		  //echo "<li>$list[0]</li>\n";
-		?>
-		<!-- scandir: 특정한 디렉토리 목록을 배열로 받을 수 있다. -->
-	</ol>
+		
 	
 	<a href="create.php">create</a>
 	

@@ -4,7 +4,7 @@ require_once('lib/print.php')?>
 <html>
 <head>
 <meta charset="utf-8">
-<title>print_title();</title>
+<title><?php print_title();?></title>
 </head>
 <body>
 
