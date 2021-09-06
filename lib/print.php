@@ -9,6 +9,7 @@ function print_title() {
 function print_description(){
     $basename= basename($_GET['id']);
     echo htmlspecialchars(file_get_contents("data/" . $basename));
+    //file_get_contents: 파일 내용을 읽어오는 함수
     //부모디렉토리로 접근을 금지시킴(basename)
 }
 function print_list(){
