@@ -17,6 +17,8 @@
     var_dump(count($coworkers)); 
    
     array_push($coworkers, '홍길동');
+    //배열에 값을  추가
+    
     var_dump($coworkers);
 ?>
 </body>
